@@ -1,0 +1,75 @@
+/* Загальні стилі */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Контейнер форми */
+.registration-frame {
+    width: 350px; /* Ширина форми */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Заголовок */
+.registration-frame h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стилі для міток */
+.registration-frame label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Поля вводу */
+.registration-frame input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+/* Підказки для вводу */
+.registration-frame input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Кнопка */
+.registration-frame button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-frame button:hover {
+    background-color: #45a049;
+}
+
+/* Обов'язкові поля */
+.registration-frame span {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
